@@ -94,7 +94,7 @@ const Category = () => {
 
     const showRemoved = () => {
         if (removed) {
-            return <p className="text-danger">Category is removed</p>;
+            return <p className="text-danger">Category is created and removed to list</p>;
         }
     };
 

@@ -94,7 +94,7 @@ const Tag = () => {
 
     const showRemoved = () => {
         if (removed) {
-            return <p className="text-danger">Tag is removed</p>;
+            return <p className="text-danger">Tag is created and removed to list</p>;
         }
     };
 

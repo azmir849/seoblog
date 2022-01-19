@@ -161,6 +161,14 @@ const Header = () => {
                 </Link>
               </NavItem>
 
+              {isAuth() && (
+              <NavItem>
+                <NavLink style={{ cursor: 'pointer' }} onClick={() => signout(() => Router.replace(`/signin`))}>
+                  Signout
+                </NavLink>
+              </NavItem>
+            )}
+
              
             </React.Fragment>
           </Nav>
